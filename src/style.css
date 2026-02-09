@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #1976D2;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+footer {
+    width: 90%;
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 30px;
+}
+
+.two ul li {
+    list-style: none;
+}
+.cardContent{
+    display: flex;
+    justify-content: center;
+}
+.cardContent .content   {
+    width: 75%;
+}
+.card {
+    margin: 3% 0;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.btns{
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: #1976D2;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 3px;
+}
