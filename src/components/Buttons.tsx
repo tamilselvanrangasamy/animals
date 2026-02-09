@@ -2,7 +2,7 @@
 function Buttons({ title }: { title: string }) {
     return (
         <div>
-            <button className="btns">{title}</button>
+            <button className="btns">{title} </button>
         </div>
     )
 }
